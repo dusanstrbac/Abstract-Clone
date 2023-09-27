@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.Left-Side {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.Left-Side a {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Right-Side button {
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+#Submit {
+    width: 150px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+#SignIn {
+    width: 80px;
+    background-color: #4C5FD5;
+    color: white;
+}
+
+.Help-Input {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #dadbf1;
+}
+
+.Help-Input h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.Help-Input input {
+    width: 600px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.Main-Boxes {
+    height: 125vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 3em;
+    gap: 30px;
+}
+
+.First-Box, .Second-Box, .Third-Box, .Fourth-Box, .Fifth-Box, .Sixth-Box {
+    display: flex;
+    width: 40%;
+    gap: 20px;
+}
+
+.Main-Boxes .Box-Info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Main-Boxes h1 {
+    font-size: 30px;
+}
+
+.Main-Boxes p {
+    font-size: 30px;
+}
+
+.Main-Boxes a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.Main-Boxes img {
+    width: 100px;
+    height: 100px;
+}
+
+.Footer {
+    background-color: black;
+    display: flex;
+    min-width: 100vh;
+    height: 50vh;
+}
+
+.Upper-Footer {
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.Upper-Footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.Upper-Footer h1 {
+    font-size: 35px;
+}
+
+.Abstract-Footer, .Resources-Footer, .Community-Footer, .CompanyAndContact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.Upper-Footer li {
+    font-size: 20px;
+}
+
+.Bottom-Footer {
+    width: 30%;
+    color: white;
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+}
+
+.Bottom-Footer button {
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #4C5FD5;
+    color: white;
+    margin-right: 2em;
+}
+
+.Bottom-Footer p {
+    font-size: 25px;
+    padding-bottom: 2em;
+}
+
